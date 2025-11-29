@@ -57,7 +57,7 @@ const apiBase = 'https://digimon-api.vercel.app/api/digimon'
 const digimons = ref([])
 const loading = ref(false)
 const searchName = ref('')
-const selectedLevel = ref('')
+const selectedLevel = ref(null)
 
 async function fetchAll() {
     loading.value = true

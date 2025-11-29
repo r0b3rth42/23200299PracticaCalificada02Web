@@ -484,7 +484,7 @@ export default {
           // Guardar el token en el almacenamiento local
           localStorage.setItem('token', JSON.stringify(response.data.token))
           // Redireccionar a product
-          this.$router.push('/')
+          this.$router.push('/home')
         })
         .catch((error) => {
           // Aquí puedes manejar los errores, como mostrar mensajes de error al usuario
