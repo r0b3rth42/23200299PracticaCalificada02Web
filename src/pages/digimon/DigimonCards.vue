@@ -14,7 +14,6 @@
                 class="col-12 col-sm-6"
                 debounce="300"
             />
-
             <q-select
                 v-model="selectedLevel"
                 :options="levels"
